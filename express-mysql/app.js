@@ -10,7 +10,7 @@ var session = require('express-session');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var postRouter = require('./routes/post'); // <-- route posts
+var postRouter = require('./routes/posts'); // <-- route posts
 
 var app = express();
 
